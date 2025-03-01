@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neural Network Character Recognition</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Neural Network Character Recognition</h1>
+        <div class="mode-toggle">
+            <button id="train-mode" class="active">Training Mode</button>
+            <button id="recognize-mode">Recognition Mode</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="drawing-section">
+                <h2>Drawing Canvas</h2>
+                <div class="canvas-container">
+                    <canvas id="drawing-canvas" width="280" height="280"></canvas>
+                    <div class="canvas-controls">
+                        <button id="clear-canvas">Clear</button>
+                        <div class="label-input" id="label-input-container">
+                            <label for="character-label">Label:</label>
+                            <input type="text" id="character-label" maxlength="1" placeholder="0-9 or A-Z">
+                        </div>
+                        <button id="action-button">Add to Training</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="network-section">
+                <h2>Neural Network Visualization</h2>
+                <div class="network-container">
+                    <canvas id="network-canvas" width="500" height="400"></canvas>
+                </div>
+                <div class="network-controls">
+                    <button id="train-button">Train Network</button>
+                    <div class="training-stats">
+                        <div>Training Examples: <span id="training-count">0</span></div>
+                        <div>Accuracy: <span id="accuracy">0%</span></div>
+                        <div>Epochs: <span id="epochs">0</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="data-section">
+            <h2>Training Data</h2>
+            <div id="training-data" class="training-data-container"></div>
+        </div>
+
+        <div id="recognition-result" class="recognition-result">
+            <h2>Recognition Result</h2>
+            <div class="result-container">
+                <p>Predicted: <span id="prediction">-</span></p>
+                <div class="confidence-bars" id="confidence-bars"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Neural Network Character Recognition</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.18.0/dist/tf.min.js"></script>
+    <script src="js/drawing.js"></script>
+    <script src="js/network.js"></script>
+    <script src="js/visualization.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
