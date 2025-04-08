@@ -11,7 +11,7 @@ This interactive web application demonstrates the power of neural networks for h
 
 The project combines an intuitive drawing interface with a sophisticated neural network visualization that reveals the inner workings of artificial intelligence, making machine learning concepts accessible and engaging.
 
-### 🎮 [Live Demo](#) | [Video Tutorial](#)
+### 🎮 [Live Demo](https://neural-network-character-recognition.onrender.com) | [Video Tutorial](#)
 
 ## ✨ Key Features
 
