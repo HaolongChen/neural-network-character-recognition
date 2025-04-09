@@ -1,13 +1,13 @@
-# Neural Network Character Recognition
+# Neural Network Character Recognition | Interactive AI Handwriting Recognition Tool
 
 <div align="center">
-    <img src="screenshots/app_preview1.png" alt="Neural Network Visualization" width="700"/>
-    <p><em>Interactive neural network visualization for handwritten character recognition</em></p>
+    <img src="screenshots/app_preview1.png" alt="Neural Network Visualization for Handwritten Character Recognition" width="700"/>
+    <p><em>Interactive neural network visualization for handwritten character recognition using TensorFlow.js</em></p>
 </div>
 
 ## 📋 Overview
 
-This interactive web application demonstrates the power of neural networks for handwritten character recognition. Users can draw characters, train a custom neural network model, and visualize how the network processes data and makes decisions in real-time.
+This interactive web application demonstrates the power of neural networks for handwritten character recognition using TensorFlow.js. Users can draw letters, numbers, or symbols, train a custom neural network model in real-time, and visualize how the AI processes data and makes decisions. Perfect for education, machine learning experimentation, and AI visualization.
 
 The project combines an intuitive drawing interface with a sophisticated neural network visualization that reveals the inner workings of artificial intelligence, making machine learning concepts accessible and engaging.
 

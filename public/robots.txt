@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Sitemap: https://neural-network-character-recognition.onrender.com/sitemap.xml
+
+# Allow all web crawlers to access all content
